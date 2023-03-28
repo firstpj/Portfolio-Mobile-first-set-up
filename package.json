@@ -1,0 +1,20 @@
+{
+  "name": "portfolio-mobile-first-set-up",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/firstpj/Portfolio-Mobile-first-set-up.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/firstpj/Portfolio-Mobile-first-set-up/issues"
+  },
+  "homepage": "https://github.com/firstpj/Portfolio-Mobile-first-set-up#readme"
+}
