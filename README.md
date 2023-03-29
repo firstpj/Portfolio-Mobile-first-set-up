@@ -38,7 +38,7 @@
 ### Tech Stack <a name="tech-stack"></a>
 
 <details>
-  <summary>HTML/CSS</summary>
+  <summary>HTML,CSS</summary>
   <summary>Linters</summary>
   <summary>Github</summary>
 </details>
@@ -61,11 +61,12 @@
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-To get a local copy up and running, follow these steps. It's a simple static project
+To get a local copy up and running, follow these steps. It's a simple project.
 
 ### Prerequisites
+In order to run this project you need:
 
-Nothing as prerequisites
+- A browser that supports html5 and css3
 
 ### Setup
 
@@ -93,9 +94,9 @@ his project doesn't need to be deployed
 
 👤 **Author1**
 
-- GitHub: [@menendezon](https://github.com/menendezon)
-- Twitter: [@menendezon](https://twitter.com/menendezon)
-- LinkedIn: [MenendezON](https://linkedin.com/in/menendezon)
+- GitHub: [@githubhandle](https://github.com/@firstpj)
+- Twitter: [@twitterhandle](https://twitter.com/ @AkordaC)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/collins-akorda-bb46b2232/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -113,7 +114,7 @@ Contributions, issues, and feature requests are welcome!
 
 I'm open to any suggestions about this project.
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/@firstpj/Portolio Mobile first set up/issues).
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

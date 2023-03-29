@@ -19,6 +19,20 @@ body {
   margin: 0;
 }
 
+/* Logo */
+.logo {
+  display: inline-block;
+  color: var(--blue);
+  font-size: 60px;
+  margin-left: 10px;
+}
+
+.logo img {
+  width: 70px;
+  margin-top: 10px;
+}
+
+
 header {
   border-bottom-left-radius: 80px;
 }
