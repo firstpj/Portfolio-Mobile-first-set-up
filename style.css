@@ -7,7 +7,6 @@
 
 body {
   background-image: url(Images/header-bg.png);
-  font-family: 'Poppins';
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -18,7 +17,6 @@ body {
   top: 0;
   background-repeat: no-repeat;
   margin: 0;
-  
 }
 
 header {
@@ -51,15 +49,15 @@ header {
  
 header {
   /* Header / 2 */
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 700;
-font-size: 40px;
-line-height: 52px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
 /* or 130% */
 
-display: flex;
-align-items: center;
+  display: flex;
+  align-items: center;
 
 /* Neutrals/N800 */
 
@@ -68,9 +66,9 @@ color: #172B4D;
 
 /* Inside auto layout */
 
-flex: none;
-order: 0;
-flex-grow: 0;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
 }
 
 .connect {
@@ -92,8 +90,4 @@ flex-grow: 0;
   align-items: flex-start;
   justify-content: space-between;
   list-style: none;
-}
-
-.hide {
-  display: none;
 }
