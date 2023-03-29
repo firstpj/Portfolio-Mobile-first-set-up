@@ -1,19 +1,133 @@
-# create a development branch
-{
-  "connector": {
-    "name": "local",
-    "options": {
-      "pattern": ["**", "!.git/**", "!node_modules/**"]
-    }
-  },
-  "extends": ["development"],
-  "formatters": ["stylish"],
-  "hints": [
-    "button-type",
-    "disown-opener",
-    "html-checker",
-    "meta-charset-utf-8",
-    "meta-viewport",
-    "no-inline-styles:error"
-  ]
-}
+<a name="readme-top"></a>
+
+<div align="center">
+  
+  <br/>
+  <h3><b>Portolio Mobile first set up</b></h3>
+
+</div>
+
+# 📗 Table of Contents
+
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+  - [Deployment](#triangular_flag_on_post-deployment)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [📝 License](#license)
+
+
+# 📖 Portfolio <a name="about-project"></a>
+
+
+**Portfollio** This is project that introdume to the world of software developer.
+
+## 🛠 Built With <a name="built-with"></a>
+
+### Tech Stack <a name="tech-stack"></a>
+
+<details>
+  <summary>HTML/CSS</summary>
+  <summary>Linters</summary>
+  <summary>Github</summary>
+</details>
+
+
+### Key Features <a name="key-features"></a>
+
+- **Adding pictures**
+- **Using flex**
+- **Side bar menu**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+- N/A
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+## 💻 Getting Started <a name="getting-started"></a>
+
+To get a local copy up and running, follow these steps. It's a simple static project
+
+### Prerequisites
+
+Nothing as prerequisites
+
+### Setup
+
+This project doesn't need something to install
+
+### Install
+
+- N/A
+
+### Usage
+
+- N/A
+
+### Run tests
+
+- N/A
+
+### Deployment
+
+his project doesn't need to be deployed
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 👥 Authors <a name="authors"></a>
+
+👤 **Author1**
+
+- GitHub: [@menendezon](https://github.com/menendezon)
+- Twitter: [@menendezon](https://twitter.com/menendezon)
+- LinkedIn: [MenendezON](https://linkedin.com/in/menendezon)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🔭 Future Features <a name="future-features"></a>
+
+- **Add javascript**
+- **Add a video**
+- **Create a form**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🤝 Contributing <a name="contributing"></a>
+
+Contributions, issues, and feature requests are welcome!
+
+I'm open to any suggestions about this project.
+
+Feel free to check the [issues page](../../issues/).
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- SUPPORT -->
+
+## ⭐️ Show your support <a name="support"></a>
+
+If you like this project don't hesitate to give it a start. 
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./LICENSE.md) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
