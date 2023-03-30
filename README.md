@@ -92,11 +92,11 @@ his project doesn't need to be deployed
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 **Author1**
+👤 **Collins**
 
-- GitHub: [@githubhandle](https://github.com/@firstpj)
-- Twitter: [@twitterhandle](https://twitter.com/ @AkordaC)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/collins-akorda-bb46b2232/)
+- GitHub: [@firstpj](https://github.com/firstpj)
+- Twitter: [@AkordaC](https://twitter.com/@AkordaC)
+- LinkedIn: [Collins Akorda](https://www.linkedin.com/in/collins-akorda-bb46b2232/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -114,7 +114,7 @@ Contributions, issues, and feature requests are welcome!
 
 I'm open to any suggestions about this project.
 
-Feel free to check the [issues page](https://github.com/@firstpj/Portolio Mobile first set up/issues).
+Feel free to check the [issues page](../../issues/).
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
