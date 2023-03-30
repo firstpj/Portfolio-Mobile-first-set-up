@@ -7,15 +7,17 @@
 
 body {
   margin: 0;
-  background-color: #e5e5e5;
+  background-color: #f4f5f7;
+}
+
+:root {
+  --blue: #6070ff;
+  --white: #fff;
 }
 
 .nav-bar {
-  padding: 0 10px 0 10px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
+  background-color: var(--white);
+  height: 50px;
 }
 
 .logo {
@@ -44,6 +46,7 @@ body {
   float: right;
   background-color: #fff;
   border: 0;
+  cursor: pointer;
 }
 
 .closeIcon {
@@ -58,35 +61,103 @@ body {
 }
 
 .mobile-menu {
-  position: fixed;
-  transform: translateY(-100%);
-  transition: transform 0.2s;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  z-index: 99;
-  background-color: #e0e1ec;
-  mix-blend-mode: multiply;
-  backdrop-filter: blur(7px);
-  color: white;
+  position: absolute;
+  margin-top: 600px;
+  width: 100%;
+  background-color: #6070ff;
+  height: 96vh;
+}
+
+/**   */
+a { text-decoration: none; }
+
+li {
   list-style: none;
-  padding-top: 4rem;
-  margin-top: 0;
-  height: 100vh;
+  margin-left: -40px;
+}
+
+.nav {
+  width: 100%;
+  height: 93%;
+  position: fixed;
+  background-color: var(--blue);
+  overflow: hidden;
+  max-height: 0;
+  transition: max-height 0.5s ease-out;
+  margin-top: 50px;
+}
+
+.menu a {
+  display: block;
+  padding: 30px;
+  color: var(--white);
+  font-size: 2em;
+}
+
+.menu a:hover {
+  background-color: var(--white);
+  color: var(--blue);
+}
+
+/* Menu Icon */
+.hamb {
+  cursor: pointer;
+  float: right;
+  padding: 18px 15px;
+}
+
+/* Style label tag */
+.hamb-line {
+  background: var(--blue);
+  display: block;
+  height: 2px;
+  position: relative;
+  width: 24px;
+}
+
+.hamb-line::before,
+.hamb-line::after {
+  background: var(--blue);
+  content: '';
+  display: block;
+  height: 100%;
+  position: absolute;
+  transition: all 0.2s ease-out;
+  width: 100%;
+}
+
+.hamb-line::before {
+  top: 5px;
+}
+
+.hamb-line::after {
+  top: -5px;
+}
+
+.side-menu {
+  display: none;
+}
+
+.side-menu:checked ~ .nav {
+  max-height: 100%;
+}
+
+.side-menu:checked ~ .hamb .hamb-line {
+  background: transparent;
+}
+
+.side-menu:checked ~ .hamb .hamb-line::before {
+  transform: rotate(-45deg);
+  top: 0;
+}
+
+.side-menu:checked ~ .hamb .hamb-line::after {
+  transform: rotate(45deg);
+  top: 0;
 }
 
 .showMenu {
   transform: translateY(0);
-}
-
-.menuItem {
-  display: block;
-  margin: 2rem;
-  font-size: 2rem;
-  font-weight: 600;
-  color: white;
-  text-decoration: none;
 }
 
 .nav-links {
@@ -94,7 +165,7 @@ body {
 }
 
 header {
-  width: 375px;
+  width: 100%;
   height: 718px;
   left: 0;
   top: 0;
