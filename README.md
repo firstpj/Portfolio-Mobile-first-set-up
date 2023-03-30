@@ -92,10 +92,10 @@ his project doesn't need to be deployed
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 **Collins**
+👤 **Collins Akorda**
 
 - GitHub: [@firstpj](https://github.com/firstpj)
-- Twitter: [@AkordaC](https://twitter.com/@AkordaC)
+- Twitter: [@AkordaC](https://twitter.com/AkordaC)
 - LinkedIn: [Collins Akorda](https://www.linkedin.com/in/collins-akorda-bb46b2232/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

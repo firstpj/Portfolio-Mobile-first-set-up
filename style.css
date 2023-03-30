@@ -6,17 +6,100 @@
 }
 
 body {
-  background-image: url(Images/header-bg.png);
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
+  margin: 0;
+  background-color: #e5e5e5;
+}
+
+.nav-bar {
+  padding: 0 10px 0 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  height: 50px;
+  width: 84%;
+  float: left;
+}
+
+.logo img {
+  height: 50px;
+}
+
+@keyframes flip {
+  from {
+    transform: rotateX(0deg);
+  }
+
+  to {
+    transform: rotateX(360deg);
+  }
+}
+
+.hambug-menu {
+  width: 16%;
+  height: 50px;
+  float: right;
+  background-color: #fff;
+  border: 0;
+}
+
+.closeIcon {
+  display: none !important;
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+.union {
+  left: 1000px;
+  color: #6070ff;
+}
+
+.mobile-menu {
+  position: fixed;
+  transform: translateY(-100%);
+  transition: transform 0.2s;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 99;
+  background-color: #e0e1ec;
+  mix-blend-mode: multiply;
+  backdrop-filter: blur(7px);
+  color: white;
+  list-style: none;
+  padding-top: 4rem;
+  margin-top: 0;
+  height: 100vh;
+}
+
+.showMenu {
+  transform: translateY(0);
+}
+
+.menuItem {
+  display: block;
+  margin: 2rem;
+  font-size: 2rem;
+  font-weight: 600;
+  color: white;
+  text-decoration: none;
+}
+
+.nav-links {
+  display: none;
+}
+
+header {
   width: 375px;
   height: 718px;
   left: 0;
   top: 0;
-  background-repeat: no-repeat;
-  margin: 0;
+  background-color: #fff;
+  border-bottom-left-radius: 80px;
 }
 
 .head-section {
@@ -25,30 +108,27 @@ body {
   align-items: flex-start;
   gap: 12px;
   padding: 115px 24px 115px 24px;
+  background-image: url(Images/header-bg.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100%;
 }
 
-.menuIcone {
-  position: absolute;
-  left: 80.67%;
-  right: 50.67%;
-  top: 5.67%;
-  bottom: 5.67%;
-}
-
-header {
+.header-title {
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
-  display: flex;
-  align-items: center;
   color: #172b4d;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
+  margin: 0;
+}
+
+.header-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+  margin: 0;
 }
 
 .connect {
@@ -70,4 +150,8 @@ header {
   align-items: flex-start;
   justify-content: space-between;
   list-style: none;
+}
+
+.hide {
+  display: none;
 }
