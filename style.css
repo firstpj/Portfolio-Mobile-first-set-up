@@ -40,15 +40,6 @@ body {
   }
 }
 
-.hambug-menu {
-  width: 16%;
-  height: 50px;
-  float: right;
-  background-color: #fff;
-  border: 0;
-  cursor: pointer;
-}
-
 .closeIcon {
   display: none !important;
   color: #fff;
