@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+* {
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: #f4f5f7;
+}
+
+:root {
+  --blue: #6070ff;
+  --white: #fff;
+}
+
+.nav-bar {
+  background-color: var(--white);
+  height: 50px;
+}
+
+.logo {
+  height: 50px;
+  width: 84%;
+  float: left;
+}
+
+.logo img {
+  height: 50px;
+}
+
+@keyframes flip {
+  from {
+    transform: rotateX(0deg);
+  }
+
+  to {
+    transform: rotateX(360deg);
+  }
+}
+
+.closeIcon {
+  display: none !important;
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+.union {
+  left: 1000px;
+  color: #6070ff;
+}
+
+.mobile-menu {
+  position: absolute;
+  margin-top: 600px;
+  width: 100%;
+  background-color: #6070ff;
+  height: 96vh;
+}
+
+/**   */
+a { text-decoration: none; }
+
+li {
+  list-style: none;
+  margin-left: -40px;
+}
+
+.nav {
+  width: 100%;
+  height: 93%;
+  position: fixed;
+  background-color: var(--blue);
+  overflow: hidden;
+  max-height: 0;
+  transition: max-height 0.5s ease-out;
+  margin-top: 50px;
+}
+
+.menu a {
+  display: block;
+  padding: 30px;
+  color: var(--white);
+  font-size: 2em;
+}
+
+.menu a:hover {
+  background-color: var(--white);
+  color: var(--blue);
+}
+
+/* Menu Icon */
+.hamb {
+  cursor: pointer;
+  float: right;
+  padding: 18px 15px;
+}
+
+/* Style label tag */
+.hamb-line {
+  background: var(--blue);
+  display: block;
+  height: 2px;
+  position: relative;
+  width: 24px;
+}
+
+.hamb-line::before,
+.hamb-line::after {
+  background: var(--blue);
+  content: '';
+  display: block;
+  height: 100%;
+  position: absolute;
+  transition: all 0.2s ease-out;
+  width: 100%;
+}
+
+.hamb-line::before {
+  top: 5px;
+}
+
+.hamb-line::after {
+  top: -5px;
+}
+
+.side-menu {
+  display: none;
+}
+
+.side-menu:checked ~ .nav {
+  max-height: 100%;
+}
+
+.side-menu:checked ~ .hamb .hamb-line {
+  background: transparent;
+}
+
+.side-menu:checked ~ .hamb .hamb-line::before {
+  transform: rotate(-45deg);
+  top: 0;
+}
+
+.side-menu:checked ~ .hamb .hamb-line::after {
+  transform: rotate(45deg);
+  top: 0;
+}
+
+.showMenu {
+  transform: translateY(0);
+}
+
+.nav-links {
+  display: none;
+}
+
+header {
+  width: 100%;
+  height: 718px;
+  left: 0;
+  top: 0;
+  background-color: #fff;
+  border-bottom-left-radius: 80px;
+}
+
+.head-section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 115px 24px 115px 24px;
+  background-image: url(Images/header-bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.header-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: #172b4d;
+  margin: 0;
+}
+
+.header-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+  margin: 0;
+}
+
+.connect {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 500;
+  color: rgb(61, 81, 255);
+  margin: 0;
+}
+
+.social-icon ul {
+  width: 170px;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.hide {
+  display: none;
+}
