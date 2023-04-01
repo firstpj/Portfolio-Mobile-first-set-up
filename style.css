@@ -213,7 +213,7 @@ header {
   padding: 15px;
 }
 
-.achievement .img img img {
+.achievement .img img {
   width: 100%;
   padding: 15px;
 }
@@ -265,16 +265,6 @@ header {
 }
 
 .achievement ul li {
-  display: inline;
-  margin: 10px 10px 10px 0;
-  flex-direction: row;
-  align-items: center;
-  padding: 4px 12px;
-  background: #ebebff;
-  border-radius: 8px;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -282,6 +272,11 @@ header {
   line-height: 16px;
   letter-spacing: 0.03em;
   color: #6070ff;
+  display: inline;
+  margin: 10px 10px 10px 0;
+  padding: 4px 12px;
+  background: #ebebff;
+  border-radius: 8px;
 }
 
 .connect {
@@ -295,10 +290,14 @@ header {
   margin: 0;
 }
 
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 10px;
+}
+
 .social-icon ul {
   width: 170px;
-  padding: 0;
-  margin: 0;
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
@@ -421,32 +420,38 @@ header {
 }
 
 .btn-text {
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
   line-height: 24px;
-  text-decoration: none;
+  display: flex;
+  align-items: center;
   text-align: center;
   letter-spacing: 0.03em;
+  color: #6070ff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  box-sizing: border-box;
+  flex-direction: row;
   padding: 12px;
-  color: #396df2;
-  background: transparent;
+  gap: 10px;
+  height: 48px;
+  background: #fff;
+  border: 1px solid #7f8cff;
   border-radius: 8px;
-  border: 1px solid #6070ff;
-  cursor: pointer;
-  margin: 12px 0;
+  margin-top: 15px;
 }
 
 .btn-text:hover {
   background-color: #6070ff;
   color: #fff;
-  transform: translate(10px, 6px);
 }
 
 .btn-text:active {
   background-color: #2230d2;
   color: #fff;
-  transition: all 0.4s ease-in-out;
 }
 
 .popUp {
