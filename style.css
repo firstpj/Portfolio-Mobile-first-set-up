@@ -939,13 +939,57 @@ form {
     border: 1px solid #6070ff;
   }
 
-  .form {
-    width: 40%;
+  .formm-container {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
 
-  .form-button {
-    margin-left: auto;
-    margin-right: auto;
+  input,
+  textarea {
+    width: 100%;
+    height: 12.8vw;
+    background: #fff;
+    border: 1px solid #cfd8dc;
+    border-radius: 8px;
+    margin: 2% 0%;
+    padding: 3%;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 4.53vw;
+  }
+
+  textarea {
+    height: 45vw;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 4vw;
+    color: #b3bac5;
+  }
+
+  textarea::placeholder {
+    color: #b3bac5;
+  }
+
+  input::placeholder {
+    color: #172b4d;
+  }
+
+  .get-in-touch {
+    background: #fff;
+    margin: 0;
+  }
+
+  .btm-bar {
+    width: 36vw;
+    height: 1.33vw;
+    bottom: 3vw;
+    margin-top: 10vw;
+    margin-bottom: 1vw;
+    border-radius: 10px;
+    background: #0d151e;
   }
 
   .nav-links a:hover {
