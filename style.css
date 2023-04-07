@@ -8,6 +8,7 @@
 body {
   z-index: 1;
   margin: 0;
+  padding: 0;
   background-color: #f4f5f7;
 }
 
@@ -621,10 +622,9 @@ header {
   display: flex;
   flex-direction: column;
   gap: 12px;
-  background-image: url(./images/contact-background.png);
-  background-size: 60%;
-  background-position: top right;
-  background-repeat: no-repeat;
+  height: 779px;
+  background-image: url(./images/bimg.png);
+  background-size: cover;
 }
 
 .contact-title {
@@ -666,9 +666,13 @@ form {
   font-size: 17px;
   line-height: 20px;
   color: #172b4d;
-  padding: 2%;
+  padding: 15px;
   height: 48px;
   width: 100%;
+}
+
+input[type=text] {
+  margin-top: 52px;
 }
 
 .form-textarea {
@@ -680,7 +684,7 @@ form {
   font-size: 15px;
   line-height: 24px;
   color: #b3bac5;
-  padding: 2%;
+  padding: 15px;
   width: 100%;
 }
 
@@ -919,7 +923,8 @@ form {
   }
 
   .contact-form {
-    background-image: url(./images/Desktop-bg2.png);
+    background-color: #6070ff;
+    background-image: url(./images/bimg.png);
     background-size: 100%;
     display: flex;
     justify-content: center;
