@@ -718,11 +718,46 @@ input[type=text] {
 
 @media (min-width: 768px) {
   nav {
-    padding: 0 143px 48px 143px;
+    background-color: var(--white);
+    position: fixed;
+    padding: 0 143px;
+    width: 100%;
   }
 
   .nav-bar {
-    padding: 10px 0;
+    padding: 0;
+  }
+
+  .side-menu,
+  .hamb {
+    display: none;
+  }
+
+  .nav {
+    width: 60%;
+    height: 50px;
+    max-height: 100%;
+    transition: max-height 0.5s ease-out;
+    margin-top: 0;
+    margin-left: 20%;
+    background-color: var(--white);
+  }
+
+  .nav ul {
+    display: flex;
+    justify-content: end;
+  }
+
+  .menu a {
+    display: flex;
+    padding: 0 40px;
+    color: #091e42;
+    font-size: 1em;
+  }
+
+  .menu a:hover {
+    background-color: var(--white);
+    color: var(--blue);
   }
 
   .hambug-menu {
@@ -747,9 +782,8 @@ input[type=text] {
   .head-section {
     background-image: url(./images/Desktop-bg.png);
     background-repeat: no-repeat;
-    background-size: 0%;
-    background-position: top;
-    padding: 289px 15% 289px 15%;
+    background-size: cover;
+    padding: 200px 15% 80px 15%;
   }
 
   .header-title {
@@ -771,6 +805,20 @@ input[type=text] {
     font-size: 20px;
     line-height: 28px;
     color: #344563;
+  }
+
+  .achievement {
+    display: flex;
+  }
+
+  .achievement .item {
+    flex: 1 0 0;
+    width: 50%;
+    margin: 24px;
+  }
+
+  .achievement:nth-of-type(2) .item:first-child {
+    order: 1;
   }
 
   .back {
@@ -905,6 +953,9 @@ input[type=text] {
   .skill-lists {
     display: flex;
     flex-direction: row;
+    gap: 60px;
+    position: relative;
+    left: 45px;
   }
 
   .skill-item {
@@ -924,32 +975,23 @@ input[type=text] {
 
   .contact-form {
     background-color: #6070ff;
-    background-image: url(./images/bimg.png);
-    background-size: 100%;
+    border-top-left-radius: 80px;
+    padding: 114px 24px;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
+    gap: 12px;
+    height: 779px;
+    background-image: url(./images/bimg.png);
   }
 
-  .contact-text {
-    width: 50%;
-  }
-
-  form {
-    gap: 27px;
+  .cf-item {
+    width: 70%;
+    margin: auto;
   }
 
   .desk-img:hover {
     filter: drop-shadow(0 48px 48px rgba(37, 47, 137, 0.08));
     border: 1px solid #6070ff;
-  }
-
-  .form-container {
-    width: 90%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
   }
 
   input,
@@ -959,15 +1001,15 @@ input[type=text] {
     background: #fff;
     border: 1px solid #cfd8dc;
     border-radius: 8px;
-    margin: 2% 0%;
-    padding: 3%;
+    margin: 6px 0%;
+    padding: 15px;
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     font-size: 4.53vw;
   }
 
   textarea {
-    height: 45vw;
+    height: 200px;
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     font-size: 4vw;
@@ -987,14 +1029,8 @@ input[type=text] {
     margin: 0;
   }
 
-  .btm-bar {
-    width: 36vw;
-    height: 1.33vw;
-    bottom: 3vw;
-    margin-top: 10vw;
-    margin-bottom: 1vw;
-    border-radius: 10px;
-    background: #0d151e;
+  form button {
+    margin: auto;
   }
 
   .nav-links a:hover {
