@@ -86,7 +86,7 @@ This project doesn't need something to install
 
 ### Deployment
 
-this project doesn't need to be deployed
+This project doesn't need to be deployed
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
