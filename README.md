@@ -54,7 +54,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- N/A
+This is the [life demo link](https://firstpj.github.io/Portfolio-Mobile-first-set-up/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -86,7 +86,7 @@ This project doesn't need something to install
 
 ### Deployment
 
-his project doesn't need to be deployed
+this project doesn't need to be deployed
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
