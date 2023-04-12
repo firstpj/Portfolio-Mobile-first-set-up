@@ -8,6 +8,7 @@
 body {
   z-index: 1;
   margin: 0;
+  padding: 0;
   background-color: #f4f5f7;
 }
 
@@ -621,10 +622,9 @@ header {
   display: flex;
   flex-direction: column;
   gap: 12px;
-  background-image: url(./images/contact-background.png);
-  background-size: 60%;
-  background-position: top right;
-  background-repeat: no-repeat;
+  height: 779px;
+  background-image: url(./images/bimg.png);
+  background-size: cover;
 }
 
 .contact-title {
@@ -666,9 +666,13 @@ form {
   font-size: 17px;
   line-height: 20px;
   color: #172b4d;
-  padding: 2%;
+  padding: 15px;
   height: 48px;
   width: 100%;
+}
+
+input[type=text] {
+  margin-top: 52px;
 }
 
 .form-textarea {
@@ -680,7 +684,7 @@ form {
   font-size: 15px;
   line-height: 24px;
   color: #b3bac5;
-  padding: 2%;
+  padding: 15px;
   width: 100%;
 }
 
@@ -714,11 +718,46 @@ form {
 
 @media (min-width: 768px) {
   nav {
-    padding: 0 143px 48px 143px;
+    background-color: var(--white);
+    position: fixed;
+    padding: 0 143px;
+    width: 100%;
   }
 
   .nav-bar {
-    padding: 10px 0;
+    padding: 0;
+  }
+
+  .side-menu,
+  .hamb {
+    display: none;
+  }
+
+  .nav {
+    width: 60%;
+    height: 50px;
+    max-height: 100%;
+    transition: max-height 0.5s ease-out;
+    margin-top: 0;
+    margin-left: 20%;
+    background-color: var(--white);
+  }
+
+  .nav ul {
+    display: flex;
+    justify-content: end;
+  }
+
+  .menu a {
+    display: flex;
+    padding: 0 40px;
+    color: #091e42;
+    font-size: 1em;
+  }
+
+  .menu a:hover {
+    background-color: var(--white);
+    color: var(--blue);
   }
 
   .hambug-menu {
@@ -743,9 +782,8 @@ form {
   .head-section {
     background-image: url(./images/Desktop-bg.png);
     background-repeat: no-repeat;
-    background-size: 0%;
-    background-position: top;
-    padding: 289px 15% 289px 15%;
+    background-size: cover;
+    padding: 200px 15% 80px 15%;
   }
 
   .header-title {
@@ -767,6 +805,20 @@ form {
     font-size: 20px;
     line-height: 28px;
     color: #344563;
+  }
+
+  .achievement {
+    display: flex;
+  }
+
+  .achievement .item {
+    flex: 1 0 0;
+    width: 50%;
+    margin: 24px;
+  }
+
+  .achievement:nth-of-type(2) .item:first-child {
+    order: 1;
   }
 
   .back {
@@ -901,6 +953,9 @@ form {
   .skill-lists {
     display: flex;
     flex-direction: row;
+    gap: 60px;
+    position: relative;
+    left: 45px;
   }
 
   .skill-item {
@@ -919,19 +974,19 @@ form {
   }
 
   .contact-form {
-    background-image: url(./images/Desktop-bg2.png);
-    background-size: 100%;
+    background-color: #6070ff;
+    border-top-left-radius: 80px;
+    padding: 114px 24px;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
+    gap: 12px;
+    height: 779px;
+    background-image: url(./images/bimg.png);
   }
 
-  .contact-text {
-    width: 50%;
-  }
-
-  form {
-    gap: 27px;
+  .cf-item {
+    width: 70%;
+    margin: auto;
   }
 
   .desk-img:hover {
@@ -939,13 +994,43 @@ form {
     border: 1px solid #6070ff;
   }
 
-  .form {
-    width: 40%;
+  input,
+  textarea {
+    width: 100%;
+    height: 12.8vw;
+    background: #fff;
+    border: 1px solid #cfd8dc;
+    border-radius: 8px;
+    margin: 6px 0%;
+    padding: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 4.53vw;
   }
 
-  .form-button {
-    margin-left: auto;
-    margin-right: auto;
+  textarea {
+    height: 200px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 4vw;
+    color: #b3bac5;
+  }
+
+  textarea::placeholder {
+    color: #b3bac5;
+  }
+
+  input::placeholder {
+    color: #172b4d;
+  }
+
+  .get-in-touch {
+    background: #fff;
+    margin: 0;
+  }
+
+  form button {
+    margin: auto;
   }
 
   .nav-links a:hover {
