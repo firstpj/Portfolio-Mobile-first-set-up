@@ -56,6 +56,8 @@
 
 This is the [live demo link](https://firstpj.github.io/Portfolio-Mobile-first-set-up/)
 
+This is the [portfolio presentation loom video link](https://www.loom.com/share/928a1741893449afb5b9266ec2be2793)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
