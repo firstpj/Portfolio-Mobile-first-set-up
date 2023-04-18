@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <script src="./index.js"></script>
-  
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,7 +14,7 @@
     <nav>
       <div class="nav-bar">
         <a href="#" class="logo">
-          <img class="menuIcone" src="./images/logo.png" alt="logo Image">
+          <img class="menuIcone" id="close-menu" src="./images/logo.png" alt="logo Image">
          
         </a>
 
@@ -27,15 +25,15 @@
         </label>
         <div class="nav">
           <ul class="menu">
-           <li> <a href="#" class="portfolio">portfolio</a></li>
-            <li><a href="#About">About</a></li>
-            <li><a href="#contact">Contacts</a></li>
+           <li> <a Class="menuitem" id="items" href="#Portfolio">portfolio</a></li>
+            <li><a class="menuitem" id="items" href="#About">About</a></li>
+            <li><a class="menuitem" id="items" href="#contact">Contacts</a></li>
           </ul>
         </div>
 
     </nav>
 
-    <section class="head-section">
+    <section class="head-section" id = "Portfolio">
 
       <h1 class="header-title">I'm Collins <br class="desk-break"> Glad to see you!</h1>
 
@@ -191,5 +189,6 @@
       </div>
     </div>
   </section>
+  <script src="./index.js"></script>
  </body>
 </html>
