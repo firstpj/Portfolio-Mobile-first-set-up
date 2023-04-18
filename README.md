@@ -94,7 +94,8 @@ This project doesn't need to be deployed
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 **Collins Akorda**
+👤 **Collins Akorda, Maryam**
+    
 
 - GitHub: [@firstpj](https://github.com/firstpj)
 - Twitter: [@AkordaC](https://twitter.com/AkordaC)
