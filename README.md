@@ -101,9 +101,9 @@ This project doesn't need to be deployed
 - LinkedIn: [Collins Akorda](https://www.linkedin.com/in/collins-akorda-bb46b2232/)
 
 👤 **Maryam**
--- GitHub: []()
-- Twitter: []()
-- LinkedIn: []()
+-- GitHub: [@maryam0007](https://github.com/maryam0007)
+- Twitter: [@maryam5905](https://twitter.com/maryam5905)
+- LinkedIn: [Maryam Bakhtawar](https://www.linkedin.com/in/maryam-bakhtawar-516603267/)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
