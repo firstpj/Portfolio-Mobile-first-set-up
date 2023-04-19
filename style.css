@@ -71,6 +71,10 @@ li {
   margin-left: -40px;
 }
 
+.test-nav {
+  display: none !important;
+}
+
 .nav {
   width: 100%;
   height: 93%;
