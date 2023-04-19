@@ -7,45 +7,35 @@
   <title>Collins Akorda - Portfolio</title>
   <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-
   <header>
     <nav>
       <div class="nav-bar">
         <a href="#" class="logo">
-          <img class="menuIcone" id="close-menu" src="./images/logo.png" alt="logo Image">
-         
+          <img class="menuIcone" src="./images/logo.png" alt="logo Image">
         </a>
-
-        </button-->
         <input type="checkbox" class="side-menu" id="side-menu" />
-        <label for="side-menu" class="hamb">
+        <label id="btn" for="side-menu" class="hamb">
           <span class="hamb-line"></span>
         </label>
-        <div class="nav">
+        <div id="nav" class="nav">
           <ul class="menu">
-           <li> <a Class="menuitem" id="items" href="#Portfolio">portfolio</a></li>
-            <li><a class="menuitem" id="items" href="#About">About</a></li>
-            <li><a class="menuitem" id="items" href="#contact">Contacts</a></li>
+           <li   id="nav-one"> <a href="#" class="portfolio">portfolio</a></li>
+            <li   id="nav-two"><a href="#About">About</a></li>
+            <li   id="nav-three"><a href="#contact">Contacts</a></li>
           </ul>
         </div>
-
+      </div>
     </nav>
-
-    <section class="head-section" id = "Portfolio">
-
+    <section class="head-section">
       <h1 class="header-title">I'm Collins <br class="desk-break"> Glad to see you!</h1>
-
       <p class="header-text">
         I'm a software developer! I can help you build a product ,
         feature or website Look through some of my work and experience! If you
         like what you see and have a project you need coded,
         don't hestiate to contact me.
       </p>
-
       <p class="connect">Let's connect</p>
-
       <div class="social-icon">
         <ul>
           <li><a href="https://twitter.com/"><img src="./images/twitter.png" alt="Twitter Icon"></a></li>
@@ -57,7 +47,6 @@
       </div>
     </section>
   </header>
-
   <div class="grid">
     <section class="work-section">
       <div class="achievement">
@@ -80,7 +69,6 @@
           &nbsp;
         </article>
       </div>
-
       <div class="achievement">
         <div class="item img">
           <img src="./images/Snapshoot2.jpg" alt="" srcset="">
@@ -101,7 +89,6 @@
           &nbsp;
         </article>
       </div>
-
       <div class="achievement">
         <div class="item img">
           <img src="./images/Snapshoot3.jpg" alt="" srcset="">
@@ -187,8 +174,8 @@
           <button class="form-button" type="submit">Get in touch</button>
           </form>
       </div>
-    </div>
-  </section>
+    </section>
+  </div>
   <script src="./index.js"></script>
  </body>
 </html>
