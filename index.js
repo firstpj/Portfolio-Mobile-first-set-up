@@ -183,6 +183,6 @@ const workCards = [
 				</div>
 			</div>
 		`;
-		popUp.classList.toggle('hide');
+    popUp.classList.toggle('hide');
  });
 });
