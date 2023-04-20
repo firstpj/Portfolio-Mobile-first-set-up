@@ -184,5 +184,5 @@ const workCards = [
 			</div>
 		`;
 		popUp.classList.toggle('hide');
-	});
+ });
 });
