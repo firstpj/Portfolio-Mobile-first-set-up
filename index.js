@@ -1,56 +1,56 @@
-	const menu = document.querySelector('.mobile-menu');
-	const menuItems = document.querySelectorAll('.menuItem');
-	const hamburger = document.querySelector('.hambug-menu');
-	const closeIcon = document.querySelector('.closeIcon');
-	const menuIcon = document.querySelector('.menuIcon');
+const menu = document.querySelector('.mobile-menu');
+const menuItems = document.querySelectorAll('.menuItem');
+const hamburger = document.querySelector('.hambug-menu');
+const closeIcon = document.querySelector('.closeIcon');
+const menuIcon = document.querySelector('.menuIcon');
 
-	function toggleMenu() {
-	if (menu.classList.contains('showMenu')) {
-		menu.classList.remove('showMenu');
-		closeIcon.style.display = 'none';
-		menuIcon.style.display = 'block';
-	} else {
-		menu.classList.add('showMenu');
-		closeIcon.setAttribute('style', 'display: block !important');
-		menuIcon.style.display = 'none';
-	}
-	}
+function toggleMenu() {
+  if (menu.classList.contains('showMenu')) {
+	   menu.classList.remove('showMenu');
+		  closeIcon.style.display = 'none';
+		  menuIcon.style.display = 'block';
+	 } else {
+	  	menu.classList.add('showMenu');
+		  closeIcon.setAttribute('style', 'display: block !important');
+		  menuIcon.style.display = 'none';
+	 }
+}
 
-	hamburger.addEventListener('click', toggleMenu);
+hamburger.addEventListener('click', toggleMenu);
 
-	menuItems.forEach(
-	(menuItem) => {
-		menuItem.addEventListener('click', toggleMenu);
-	},
-	);
+menuItems.forEach(
+  	(menuItem) => {
+	    	menuItem.addEventListener('click', toggleMenu);
+	 	},
+);
 
-	const navLinks = document.querySelectorAll('nav a');
-	navLinks.forEach((link) => {
-	link.addEventListener('click', (e) => {
-		e.preventDefault();
-		const targetSection = document.querySelector(e.target.getAttribute('href'));
-		targetSection.scrollIntoView({ behavior: 'smooth' });
-	});
-	});
+const navLinks = document.querySelectorAll('nav a');
+navLinks.forEach((link) => {
+		link.addEventListener('click', (e) => {
+				e.preventDefault();
+				const targetSection = document.querySelector(e.target.getAttribute('href'));
+				targetSection.scrollIntoView({ behavior: 'smooth' });
+		});
+});
 
-	const workCards = [
-	{
-		id: 1,
-		title: 'Tonic',
-		canopy: ['CANOPY', 'Back End Dev', '2015'],
-		dot: './img/Counter.png',
-		class: 'section-label',
-		para1: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-		para: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and  specimen book.",
-		para2: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-		tech: ['html', 'css', 'javascript', 'github', 'ruby', 'Bootstraps'],
-		imageMob: 'Images/Snapshoot1.png',
-		imageDesk: 'Images/Desktop1.png',
-		live: '#',
-		source: '#',
-	},
-	{
-		id: 2,
+const workCards = [
+		{
+				id: 1,
+				title: 'Tonic',
+				canopy: ['CANOPY', 'Back End Dev', '2015'],
+				dot: './img/Counter.png',
+				class: 'section-label',
+				para1: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+				para: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and  specimen book.",
+				para2: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
+				tech: ['html', 'css', 'javascript', 'github', 'ruby', 'Bootstraps'],
+				imageMob: 'Images/Snapshoot1.png',
+				imageDesk: 'Images/Desktop1.png',
+				live: '#',
+				source: '#',
+		},
+		{
+				id: 2,
 		title: 'Multi-Post Stories',
 		canopy: ['CANOPY', 'Back End Dev', '2015'],
 		dot: './img/Counter.png',
