@@ -185,4 +185,4 @@ const workCards = [
 		`;
 		popUp.classList.toggle('hide');
 	});
-	});
+});
