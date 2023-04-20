@@ -26,7 +26,7 @@ menuItems.forEach(
 
 const navLinks = document.querySelectorAll('nav a');
 navLinks.forEach((link) => {
-  link.addEventListener('click', (e) => {
+link.addEventListener('click', (e) => {
 	e.preventDefault();
 	const targetSection = document.querySelector(e.target.getAttribute('href'));
 	targetSection.scrollIntoView({ behavior: 'smooth' });
