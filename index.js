@@ -1,10 +1,10 @@
-const menu = document.querySelector('.mobile-menu');
-const menuItems = document.querySelectorAll('.menuItem');
-const hamburger = document.querySelector('.hambug-menu');
-const closeIcon = document.querySelector('.closeIcon');
-const menuIcon = document.querySelector('.menuIcon');
+	const menu = document.querySelector('.mobile-menu');
+	const menuItems = document.querySelectorAll('.menuItem');
+	const hamburger = document.querySelector('.hambug-menu');
+	const closeIcon = document.querySelector('.closeIcon');
+	const menuIcon = document.querySelector('.menuIcon');
 
-function toggleMenu() {
+	function toggleMenu() {
 	if (menu.classList.contains('showMenu')) {
 		menu.classList.remove('showMenu');
 		closeIcon.style.display = 'none';
@@ -14,26 +14,26 @@ function toggleMenu() {
 		closeIcon.setAttribute('style', 'display: block !important');
 		menuIcon.style.display = 'none';
 	}
-}
+	}
 
-hamburger.addEventListener('click', toggleMenu);
+	hamburger.addEventListener('click', toggleMenu);
 
-menuItems.forEach(
+	menuItems.forEach(
 	(menuItem) => {
 		menuItem.addEventListener('click', toggleMenu);
 	},
-);
+	);
 
-const navLinks = document.querySelectorAll('nav a');
-navLinks.forEach((link) => {
+	const navLinks = document.querySelectorAll('nav a');
+	navLinks.forEach((link) => {
 	link.addEventListener('click', (e) => {
 		e.preventDefault();
 		const targetSection = document.querySelector(e.target.getAttribute('href'));
 		targetSection.scrollIntoView({ behavior: 'smooth' });
 	});
-});
+	});
 
-const workCards = [
+	const workCards = [
 	{
 		id: 1,
 		title: 'Tonic',
@@ -94,11 +94,11 @@ const workCards = [
 		live: '#',
 		source: '#',
 	},
-];
+	];
 
-const sectionLabel = document.getElementById('work');
+	const sectionLabel = document.getElementById('work');
 
-workCards.forEach((item2) => {
+	workCards.forEach((item2) => {
 	sectionLabel.innerHTML += `
 	<div class="${item2.class}">
 		<img class="portfolios" src="${item2.imageMob}" alt="card1">
@@ -122,14 +122,14 @@ workCards.forEach((item2) => {
 		</div>
 	</div>
 	`;
-});
+	});
 
-sectionLabel.innerHTML += '<div id="popUp" class="popUp hide"></div>';
- 
-const seeProject = document.querySelectorAll('.btn-text');
-const popUp = document.getElementById('popUp');
+	sectionLabel.innerHTML += '<div id="popUp" class="popUp hide"></div>';
 
-seeProject.forEach((item) => {
+	const seeProject = document.querySelectorAll('.btn-text');
+	const popUp = document.getElementById('popUp');
+
+	seeProject.forEach((item) => {
 	item.addEventListener('click', () => {
 		const name = parseInt(item.getAttribute('name'), 10);
 
@@ -146,7 +146,7 @@ seeProject.forEach((item) => {
 					
 					<div class="label-inside">
 						<div class="popTitle">
-				            <h2 class="section-title">${card[0].title}</h2>
+										<h2 class="section-title">${card[0].title}</h2>
 							<img class="crossblack" src="./images/crossblack.png" alt="crossblack" onclick="popUp.classList.toggle('hide')">
 						</div>
 						<div class="section-options">
@@ -185,4 +185,4 @@ seeProject.forEach((item) => {
 		`;
 		popUp.classList.toggle('hide');
 	});
-});
+	});
