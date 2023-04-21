@@ -43,7 +43,7 @@ body {
 }
 
 .hambug-menu {
-  position: fixed;
+  position: fixd;
   z-index: 100;
   top: 1rem;
   right: 1rem;
