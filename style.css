@@ -320,7 +320,7 @@ header {
 
 .popUp-content {
   background-color: #fff;
-  width: 90%;
+  width: 80%;
   margin: 16px auto 0 auto;
   border: 1px solid #dfe1e6;
   border-radius: 16px;
@@ -707,7 +707,7 @@ form {
   }
 
   .popUp-content {
-    width: 80%;
+    width: 65%;
     margin: 50px auto 50px auto;
   }
 
@@ -722,6 +722,7 @@ form {
   }
 
   .cardParaDesk {
+    width: 75%;
     display: block;
   }
 
