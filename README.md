@@ -56,6 +56,8 @@
 
 This is the [live demo link](https://firstpj.github.io/Portfolio-Mobile-first-set-up/)
 
+This is the [portfolio presentation loom video link](https://www.loom.com/share/928a1741893449afb5b9266ec2be2793)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
@@ -93,10 +95,16 @@ This project doesn't need to be deployed
 ## 👥 Authors <a name="authors"></a>
 
 👤 **Collins Akorda**
-
+    
 - GitHub: [@firstpj](https://github.com/firstpj)
 - Twitter: [@AkordaC](https://twitter.com/AkordaC)
 - LinkedIn: [Collins Akorda](https://www.linkedin.com/in/collins-akorda-bb46b2232/)
+
+👤 **Maryam**
+-- GitHub: [@maryam0007](https://github.com/maryam0007)
+- Twitter: [@maryam5905](https://twitter.com/maryam5905)
+- LinkedIn: [Maryam Bakhtawar](https://www.linkedin.com/in/maryam-bakhtawar-516603267/)
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
