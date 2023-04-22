@@ -178,8 +178,8 @@ header {
 }
 
 .portfolios {
-  width: 295px;
-  height: 220px;
+  width: 100%;
+  border-radius: 10px;
 }
 
 .desk-img {
@@ -319,9 +319,10 @@ header {
 }
 
 .popUp-content {
-  background-color: #fff;
-  width: 80%;
-  margin: 16px auto 0 auto;
+  background-color: white;
+  width: 90%;
+  margin: 50px auto;
+  padding: 10px;
   border: 1px solid #dfe1e6;
   border-radius: 16px;
 }
