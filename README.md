@@ -61,34 +61,67 @@ This is the [portfolio presentation loom video link](https://www.loom.com/share/
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-## 💻 Getting Started <a name="getting-started"></a>
+# 💻 Getting Started <a name="getting-started"></a>
 
-To get a local copy up and running, follow these steps. It's a simple project.
+To get a local copy up and running, follow these steps:
 
 ### Prerequisites
-In order to run this project you need:
 
-- A browser that supports html5 and css3
+In order to run this project you need: 
+
+- Microsoft Visual Studio Code or any other text Editor
+- A Github account
+- Internet Connection.
+
+```sh
+  cd your-project
+  npm init -y  
+  npm install
+```
 
 ### Setup
 
-This project doesn't need something to install
+Clone this repository to your desired folder:
+
+```sh
+  cd your-folder
+  git clone https://github.com/firstpj/Portfolio-Mobile-first-set-up
+```
 
 ### Install
 
-- N/A
+Install this project with:
+
+```sh
+  node.js V16 and above
+```
+
 
 ### Usage
 
-- N/A
+To run the project:
+
+```sh
+  use git bash to open in Vs code
+```
+
 
 ### Run tests
 
-- N/A
+To run tests, run the following command:
+
+```sh
+  npx hint .
+
+  npx stylelint "**/*.{css,scss}" ' 
+```
+
+to check linter errors.
+
 
 ### Deployment
 
-This project doesn't need to be deployed
+Github Pages:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
