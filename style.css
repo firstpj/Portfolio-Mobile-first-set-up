@@ -10,6 +10,7 @@ body {
   margin: 0;
   padding: 0;
   background-color: #f4f5f7;
+  padding-top: 60px;
 }
 
 :root {
@@ -54,11 +55,11 @@ body {
 }
 
 .mobile-menu {
-  position: absolute;
-  margin-top: 600px;
+  position: fixed;
+  margin-top: 50px;
   width: 100%;
   background-color: #6070ff;
-  height: 96vh;
+  height: calc(100vh - 50px);
 }
 
 /**   */
@@ -73,13 +74,25 @@ li {
 
 .nav {
   width: 100%;
-  height: 93%;
-  position: fixed;
+  position: absolute;
+  top: 50px;
+  height: auto;
   background-color: var(--blue);
   overflow: hidden;
   max-height: 0;
-  transition: max-height 0.5s ease-out;
-  margin-top: 50px;
+  transition: max-height 0.4s ease;
+}
+
+html {
+  scroll-padding-top: 80px;
+}
+
+.side-menu:checked ~ .nav {
+  max-height: 100vh;
+}
+
+.menu a {
+  display: block;
 }
 
 .menu a {
@@ -161,9 +174,6 @@ li {
 
 header {
   width: 100%;
-  height: 718px;
-  left: 0;
-  top: 0;
   background-color: #fff;
   border-bottom-left-radius: 80px;
 }
@@ -294,7 +304,6 @@ header {
 .grid {
   display: grid;
   grid-template-columns: 1fr;
-  row-gap: 10px;
 }
 
 .social-icon ul {
@@ -480,6 +489,12 @@ header {
   padding-left: 10px;
 }
 
+#portfolio,
+#about,
+#contact {
+  scroll-margin-top: 70px;
+}
+
 .deskColum {
   display: flex;
   flex-direction: column;
@@ -611,7 +626,7 @@ header {
   border-bottom: 1px solid #dfe1e6;
 }
 
-.formx {
+.form {
   background-color: #fff;
 }
 
@@ -724,6 +739,20 @@ input[type=text] {
     width: 100%;
   }
 
+  @media (min-width: 768px) {
+  .grid {
+    grid-template-columns: 2fr 1fr;
+    gap: 40px;
+  }
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
   .nav-bar {
     padding: 0;
   }
@@ -760,7 +789,7 @@ input[type=text] {
     color: var(--blue);
   }
 
-  .hambug-menu {
+  .hamburg-menu {
     display: none;
   }
 
@@ -980,7 +1009,6 @@ input[type=text] {
     display: flex;
     flex-direction: column;
     gap: 12px;
-    height: 779px;
     background-image: url(./images/bimg.png);
   }
 
@@ -1045,6 +1073,10 @@ input[type=text] {
   .form-input:hover {
     transform: translate(10px);
   }
+
+  section {
+  scroll-margin-top: 70px;
+}
 
   .form-textarea {
     transition: all;
