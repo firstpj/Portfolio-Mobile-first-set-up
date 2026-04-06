@@ -739,6 +739,12 @@ input[type=text] {
     width: 100%;
   }
 
+  #about,
+#portfolio,
+#contact {
+  scroll-margin-top: 100px;
+}
+
   @media (min-width: 768px) {
   .grid {
     grid-template-columns: 2fr 1fr;
@@ -1008,9 +1014,14 @@ nav {
     padding: 114px 24px;
     display: flex;
     flex-direction: column;
-    gap: 12px;
+    gap: 16px;
     background-image: url(./images/bimg.png);
   }
+
+.contact-form {
+  max-width: 800px;
+  margin: 0 auto;
+}
 
   .cf-item {
     width: 70%;
