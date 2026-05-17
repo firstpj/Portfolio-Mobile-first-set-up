@@ -3,7 +3,7 @@
 <div align="center">
   
   <br/>
-  <h3><b>Portolio Mobile first set up</b></h3>
+  <h3><b>Portfolio Mobile First Setup</b></h3>
 
 </div>
 
@@ -31,18 +31,22 @@
 # 📖 Portfolio <a name="about-project"></a>
 
 
-**Portfollio** This is project that introdume to the world of software developer.
+**Portfolio** is a project that introduces me to the world of software development.
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
 <details>
-  <summary>HTML,CSS</summary>
-  <summary>Linters</summary>
-  <summary>Github</summary>
-</details>
+  <summary>Tech Stack</summary>
 
+  <ul>
+    <li>HTML5</li>
+    <li>CSS3</li>
+    <li>Linters</li>
+    <li>GitHub</li>
+  </ul>
+</details>
 
 ### Key Features <a name="key-features"></a>
 
@@ -50,29 +54,33 @@
 - **Using flex**
 - **Side bar menu**
 
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-This is the [live demo link](https://firstpj.github.io/Portfolio-Mobile-first-set-up/)
+This is the [Live Demo Link](https://firstpj.github.io/Portfolio-Mobile-first-set-up/)
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-To get a local copy up and running, follow these steps. It's a simple project.
+To get a local copy up and running, follow these simple steps.
 
 ### Prerequisites
 In order to run this project you need:
 
-- A browser that supports html5 and css3
+- A browser that supports HTML5 and CSS3
 
 ### Setup
 
-This project doesn't need something to install
+
+This project does not require installation.
 
 ### Install
+
 
 - N/A
 
@@ -86,7 +94,7 @@ This project doesn't need something to install
 
 ### Deployment
 
-This project doesn't need to be deployed
+This project is deployed using GitHub Pages.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -102,7 +110,7 @@ This project doesn't need to be deployed
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- **Add javascript**
+- **Add JavaScript**
 - **Add a video**
 - **Create a form**
 
@@ -123,7 +131,7 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-If you like this project don't hesitate to give it a start. 
+If you like this project, don't hesitate to give it a star.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
